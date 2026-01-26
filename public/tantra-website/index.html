@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacred Journey - Inner Peace and Healing</title>
+    <meta name="description" content="Certified Tantra practitioner guiding women through transformative healing experiences. Reconnect mind, body, and spirit.">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -13,7 +14,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <div class="logo-icon">✦</div>
+                    <img src="src/logo-icon.png" alt="Pure Soul Logo" class="logo-icon-img">
                     <div class="logo-text">
                         <span class="logo-name">PURE SOUL</span>
                         <span class="logo-tagline">Awakening & Healing</span>
@@ -21,14 +22,14 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li><a href="#offerings">Offerings ▾</a></li>
+                        <li><a href="#offerings">Offerings</a></li>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="#interview" class="btn btn-primary">Request an Interview</a>
-                <button class="mobile-menu-btn">☰</button>
+                <a href="#interview" class="btn btn-primary header-btn">Request an Interview</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
             </div>
         </div>
     </header>
@@ -48,7 +49,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="hero-image-wrapper">
-                        <div class="hero-image-placeholder"></div>
+                        <img src="src/hero-image.jpg" alt="Healing journey" class="hero-img">
                     </div>
                 </div>
             </div>
@@ -179,7 +180,7 @@
             
             <div class="about-content">
                 <div class="about-image">
-                    <div class="about-image-placeholder"></div>
+                    <img src="src/about-image.jpg" alt="About me" class="about-img">
                 </div>
                 <div class="about-text">
                     <p>I remember feeling completely disconnected from my body, navigating through life on autopilot. Years of corporate stress had left me depleted, anxious, and out of touch with my feminine essence. My healing journey began when I discovered Tantra – not as the Western world often portrays it, but as a sacred path of self-discovery and wholeness.</p>
@@ -365,8 +366,8 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- CTA Section / Footer -->
+    <footer class="cta-section" id="contact">
         <div class="container">
             <span class="section-label">TAKE ACTION</span>
             <h2>Begin your journey to wholeness</h2>
@@ -376,11 +377,11 @@
             <div class="cta-links">
                 <div class="cta-link-group">
                     <a href="#">Book a Session</a>
-                    <a href="#">About Me</a>
+                    <a href="#about">About Me</a>
                 </div>
                 <div class="cta-link-group">
-                    <a href="#">All Offerings</a>
-                    <a href="#">FAQ</a>
+                    <a href="#offerings">All Offerings</a>
+                    <a href="#faq">FAQ</a>
                 </div>
                 <div class="cta-link-group">
                     <a href="#">My Approach</a>
@@ -389,10 +390,10 @@
             </div>
             
             <div class="footer-logo">
-                <span class="footer-logo-icon">✦</span>
+                <img src="src/logo-icon.png" alt="Pure Soul" class="footer-logo-img">
             </div>
         </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>
