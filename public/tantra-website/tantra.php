@@ -1,0 +1,260 @@
+<?php get_header(); ?>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">☸</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHANTI PATH</span>
+                        <span class="logo-tagline">Sacred Energy Body Work</span>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="offerings.html">Offerings</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="faq.html">F&Q</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="contact.html" class="btn btn-primary">Request an interview</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tantra Hero -->
+    <section class="tantra-hero">
+        <div class="container">
+            <div class="tantra-hero-content">
+                <div class="tantra-hero-text">
+                    <h1>Tantra offers a way back home.</h1>
+                    <p>In a world where we are constantly disconnected from ourselves—overstimulated, numb, or simply running on empty—there exists a pathway back to who you truly are. Many of us have forgotten the magic/sacred beings we truly are. We become heavy. Not just physically, but emotionally and mentally too: Relationship anxiety, childhood trauma, and a profound disconnect from our sensual and spiritual selves become the norm.</p>
+                    <p class="highlight-text">Tantra is not just a practice—it is a path of remembering. It is an ancient wisdom tradition that recognizes your body as a sacred temple, your sexual energy as a powerful healing force, and your entire being an interconnected body, mind, emotions, heart, and soul. Through Tantra, we learn to work with energy, feel— the very essence of who we are—to heal, transform, and awaken.</p>
+                    <a href="contact.html" class="btn btn-primary">Request an interview</a>
+                </div>
+                <div class="tantra-hero-image">
+                    <!-- Image placeholder -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Tantra -->
+    <section class="what-is-tantra-section">
+        <div class="container">
+            <div class="decorative-icon">ॐ</div>
+            <span class="section-label">COMMIT TO HEALING</span>
+            <h2>What Is Tantra?</h2>
+            <p class="section-subtitle">At its core, Tantra is an energy-based practice that focuses on balancing, awakening, and directing the vital life force within you.</p>
+            
+            <div class="tantra-description">
+                <p>It integrates breathwork, conscious presence, meditation, and energy techniques to activate your chakras (energy centers), clear blockages, and restore the natural flow of energy throughout your being.</p>
+                <p>In the Tantric tradition, nothing is rejected or deemed shameful. Every part of you—including your sexuality—is sacred. Sexual energy is not something to suppress or ignore, but rather a potent healing current that, when awakened and channeled throughout your entire body, can bring profound transformation on every level: physical, emotional, mental, and spiritual.</p>
+            </div>
+
+            <div class="tantra-teachings">
+                <p class="teachings-intro">Tantra teaches us that:</p>
+                <ul>
+                    <li>○ Your body is a temple worthy of worship and reverence</li>
+                    <li>○ Sexual energy is divine life force energy, not something taboo</li>
+                    <li>○ Healing happens when energy flows freely through cleared pathways</li>
+                    <li>○ True transformation requires the integration of body, mind, and spirit</li>
+                    <li>○ Pleasure, when experienced consciously, is a pathway to the divine</li>
+                </ul>
+            </div>
+
+            <p class="tantra-cta-text">If your are not sure what is the right path for you, lets talk!</p>
+            <a href="contact.html" class="btn btn-primary">Book an initial consultation</a>
+        </div>
+    </section>
+
+    <!-- Full Width Image -->
+    <section class="tantra-image-section">
+        <div class="container">
+            <div class="tantra-full-image">
+                <!-- Full width image placeholder -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Is It For -->
+    <section class="who-section">
+        <div class="container">
+            <div class="decorative-icon">ॐ</div>
+            <span class="section-label">COMMIT TO HEALING</span>
+            <h2>Who is it for</h2>
+            <p class="section-subtitle">Tantra is an ancient practice built for anyone who feels the pull toward something deeper in life. It is specifically powerful for those of you:</p>
+
+            <div class="who-list">
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Experiencing emotional, physical, or sexual disconnection.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Feeling emotional, physical, or energy blockages.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Carrying past trauma, especially those related to relationships, sexuality, or childhood.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Feeling stuck, numb, or unfulfilled despite having "everything" on the surface.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Ready for profound emotional and spiritual healing, and willing to go deep, even if it's scary.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Feeling deeply unsatisfied, although you can not describe why.</p>
+                </div>
+                <div class="who-item">
+                    <span class="who-icon">🔶</span>
+                    <p>Feeling disconnected and alienated from your body.</p>
+                </div>
+            </div>
+
+            <p class="tantra-cta-text">If your are not sure what is the right path for you, lets talk!</p>
+            <a href="contact.html" class="btn btn-primary">Book an initial consultation</a>
+        </div>
+    </section>
+
+    <!-- Full Width Image -->
+    <section class="tantra-image-section">
+        <div class="container">
+            <div class="tantra-full-image">
+                <!-- Full width image placeholder -->
+            </div>
+        </div>
+    </section>
+
+    <!-- The Purpose of Tantra -->
+    <section class="purpose-section">
+        <div class="container">
+            <div class="decorative-icon">ॐ</div>
+            <span class="section-label">COMMIT TO HEALING</span>
+            <h2>The Purpose of Tantra</h2>
+            <p class="section-subtitle">Modern life leaves us carrying blockages</p>
+            
+            <div class="purpose-content">
+                <p>Modern life leaves us carrying blockages—invisible imprints and scars formed from stress, trauma, painful memories, childhood experiences, relationship wounds, and suppressed emotions. These blockages live in your physical tissues, your energy channels, your subconscious mind, and even in your sexual body. They dictate your patterns, your reactions, and your quality of life, often without you even knowing they're there.</p>
+                <p>Tantra serves to clear these blockages and restore you to your natural state of vitality, joy, and wholeness.</p>
+            </div>
+
+            <div class="purpose-quote">
+                <p>Think of it like this: You are a house that hasn't been cleaned in years. Dust covers every surface, the pipes are clogged, the windows are clouded, and the basement is filled with forgotten boxes of the past. Tantra is the thorough, compassionate cleaner that comes in and meticulously clears it all—cleansing your physical body, unclogging your energy channels, washing your emotional windows, and illuminating your subconscious basement.</p>
+                <p>When the work is complete, you emerge feeling lighter, clearer, more alive, and deeply reconnected to who you truly are beneath all the accumulated heaviness.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Width Image -->
+    <section class="tantra-image-section">
+        <div class="container">
+            <div class="tantra-full-image">
+                <!-- Full width image placeholder -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="decorative-icon">ॐ</div>
+            <span class="section-label">COMMIT TO HEALING</span>
+            <h2>Benefits</h2>
+            <p class="section-subtitle">Modern life leaves us carrying blockages</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Emotional Healing</h3>
+                </div>
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Physical Wellbeing</h3>
+                </div>
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Consciousness</h3>
+                </div>
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Mental Clarity</h3>
+                </div>
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Sexual Healing</h3>
+                </div>
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔶</span>
+                    <h3>Relationship skills</h3>
+                </div>
+            </div>
+
+            <p class="tantra-cta-text">If your are not sure what is the right path for you, lets talk!</p>
+        </div>
+    </section>
+
+    <!-- Full Width Image -->
+    <section class="tantra-image-section">
+        <div class="container">
+            <div class="tantra-full-image">
+                <!-- Full width image placeholder -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Experience Tantra -->
+    <section class="experience-tantra-section">
+        <div class="container">
+            <div class="decorative-icon">ॐ</div>
+            <span class="section-label">COMMIT TO HEALING</span>
+            <h2>Ready to Experience Tantra</h2>
+            <div class="experience-content">
+                <p>Whether you are navigating the pain of past trauma, seeking deeper connection, or simply feeling the pull toward something sacred and meaningful—Tantra can meet you where you are and guide you home.</p>
+                <p>In our sessions, I combine traditional Tantric practices, skilled therapeutic touch, and supportive energetic work to create a safe, non-judgmental space where your body, mind, and spirit can heal, integrate, and awaken.</p>
+                <p>Are you ready to feel whole again?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <footer class="cta-section">
+        <div class="container">
+            <span class="section-label">YOUR JOURNEY</span>
+            <h2>Begin your journey to wholeness</h2>
+            <p>The journey of a thousand miles begins with a single step. Your path to peace, wholeness, and awakening is calling. I look forward to walking beside you.</p>
+            <a href="contact.html" class="btn btn-light">Request an interview</a>
+            <div class="cta-links">
+                <div class="cta-link-group">
+                    <a href="tantra.html">Tantra Path</a>
+                    <a href="#">Reiki Path</a>
+                    <a href="offerings.html">My Offerings</a>
+                </div>
+                <div class="cta-link-group">
+                    <a href="about.html">About Me</a>
+                    <a href="faq.html">F&Q</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <span class="footer-logo-icon">☸</span>
+            </div>
+            <div class="social-links">
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+<?php get_footer(); ?>

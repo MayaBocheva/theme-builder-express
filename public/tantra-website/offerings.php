@@ -1,0 +1,339 @@
+<?php get_header(); ?>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">☸</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHANTI PATH</span>
+                        <span class="logo-tagline">Sacred Energy Body Work</span>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="offerings.html">Offerings</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="faq.html">F&Q</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="contact.html" class="btn btn-primary">Request an interview</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Offerings Hero -->
+    <section class="offerings-hero">
+        <div class="container">
+            <span class="section-label">EVERY PATH LEADS TO WHOLENESS</span>
+            <h1>My Offerings</h1>
+            <p>Your healing journey is uniquely yours. I am here to support you on every step of the way. Whether you're here to process loss, to reconnect to your sacred body, to explore who you really are, or just for a deep inner spiritual self. The beauty of this work is that healing happens with time—a single session can be transforming, profoundly shifting yet the work allows you to grow more naturally in ways your body already knows to learn. As you progress together I'm grateful for that natural healing gift.</p>
+        </div>
+    </section>
+
+    <!-- Logo Divider -->
+    <section class="logo-divider light-bg">
+        <div class="container">
+            <div class="logo-divider-content">
+                <div class="logo">
+                    <span class="logo-icon">☸</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHANTI PATH</span>
+                        <span class="logo-tagline">Sacred Energy Body Work</span>
+                    </div>
+                </div>
+                <span class="om-symbol">ॐ</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Packages -->
+    <section class="packages-section">
+        <div class="container">
+            <span class="section-label">ADVANCED PACKAGES</span>
+            <h2>Transformation Packages</h2>
+            <p class="section-subtitle">For those ready to commit to profound transformation, I offer intensive packages that combine multiple modalities for deep, lasting change. These packages are designed for those who are ready to take a leap and are willing to do the inner work required for transformation.</p>
+            
+            <div class="packages-grid">
+                <!-- Awakening Path -->
+                <div class="package-card">
+                    <span class="package-icon">✦</span>
+                    <h3>Awakening Path</h3>
+                    <p class="package-duration">3 SESSIONS | 4 MONTHS ACCESS</p>
+                    <p class="package-price">xxx</p>
+                    <p class="package-tagline">INTRODUCTORY PATH</p>
+                    <ul class="package-features">
+                        <li>○ Entry point with the work, ideal for curious beginners</li>
+                        <li>○ Three 60-90 min sessions (at your own pace)</li>
+                        <li>○ Learn tantric breathing and energy practices</li>
+                    </ul>
+                    <p class="package-label">INCLUDED SERVICES:</p>
+                    <ul class="package-features">
+                        <li>○ Initial consultation and intention setting</li>
+                        <li>○ Three tantra sessions/classes</li>
+                        <li>○ Email/WhatsApp support for integration (within 6 mths)</li>
+                        <li>○ Basic take-home meditation practices</li>
+                        <li>○ One brief check-in call between sessions</li>
+                    </ul>
+                    <p class="package-note">✶ 1 journal for personal reflection included</p>
+                    <p class="package-perfect">Perfect for: Those new to energy work, curious explorers, or anyone wanting to dip their toes in</p>
+                </div>
+
+                <!-- Transformation Path -->
+                <div class="package-card featured">
+                    <span class="package-icon">✦</span>
+                    <h3>Transformation Path</h3>
+                    <p class="package-duration">6 SESSIONS | 6-12 MONTHS ACCESS</p>
+                    <p class="package-price">xxx</p>
+                    <p class="package-tagline">INTENSIVE PATH</p>
+                    <ul class="package-features">
+                        <li>○ Allowing emotional shifts, at the time of crisis, grief, major life transitions</li>
+                        <li>○ Reconnecting soul, breath, and body for a healthier and happier life</li>
+                        <li>○ Deep chakra balancing, trauma-informed work</li>
+                    </ul>
+                    <p class="package-label">INCLUDED SERVICES:</p>
+                    <ul class="package-features">
+                        <li>○ Detailed consultation and whole-life assessment</li>
+                        <li>○ Six 90+ min intensive sessions</li>
+                        <li>○ Personalized healing plan and lifestyle shifts</li>
+                        <li>○ Deep chakra balancing, trauma-informed work</li>
+                        <li>○ Enhanced breathwork, meditation techniques</li>
+                        <li>○ Priority email/WhatsApp + two calls between sessions</li>
+                        <li>○ Mid-point assessment + celebration session</li>
+                    </ul>
+                    <p class="package-note">✶ Journal for emotional processing</p>
+                    <p class="package-note">✶ Therapy and/or coaching referrals as needed</p>
+                    <p class="package-perfect">Perfect for: Those going through shifts, healing from trauma, or a deeper commitment to transformation.</p>
+                </div>
+
+                <!-- Liberation Path -->
+                <div class="package-card">
+                    <span class="package-icon">✦</span>
+                    <h3>Liberation Path</h3>
+                    <p class="package-duration">12 SESSIONS | 12+ MONTHS ACCESS</p>
+                    <p class="package-price">xxx</p>
+                    <p class="package-tagline">SACRED PATH MENTORSHIP</p>
+                    <ul class="package-features">
+                        <li>○ Expand your practice into self and other work (therapist, healer, etc)</li>
+                        <li>○ Transmuting soul + work and healing blockages</li>
+                        <li>○ Deep understanding & practicing energy healing</li>
+                    </ul>
+                    <p class="package-label">INCLUDED SERVICES:</p>
+                    <ul class="package-features">
+                        <li>○ Extended 90+ min sessions and advanced techniques</li>
+                        <li>○ Complete chakra journey and alignment</li>
+                        <li>○ Personalized meditation tailored to your path</li>
+                        <li>○ Monthly group call with other travelers</li>
+                        <li>○ Unlimited text + 1 hour call support</li>
+                        <li>○ Wisdom, meditation, and integration tips</li>
+                        <li>○ One 60 min energy session per month</li>
+                    </ul>
+                    <p class="package-note">✶ Lifetime access to guided meditations</p>
+                    <p class="package-note">✶ 25% discount on future sessions</p>
+                    <p class="package-perfect">Perfect for: Leaders ready for profound transformation, healers wanting to deepen practice, or anyone committed to a year-long spiritual journey.</p>
+                </div>
+            </div>
+
+            <p class="packages-cta-text">If your are not sure what is the right path for you, lets talk!</p>
+            <a href="contact.html" class="btn btn-primary">Book an initial consultation</a>
+        </div>
+    </section>
+
+    <!-- Create Your Own -->
+    <section class="create-own-section">
+        <div class="container">
+            <h2>Create Your Own Healing Journey</h2>
+            <p>If none of the paths above feel right, if your intuition is pointing you in a different direction, or maybe you're confused, I offer custom packages tailored to your specific needs. At your own pace, I'm honored to create healing packages that meet you exactly where you are and guide you to where you're longing to go. Contact me for a free consultation to discuss your unique needs.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Tantra Heart Section -->
+    <section class="tantra-heart-section">
+        <div class="container">
+            <span class="section-label">THE TANTRIC PRACTICE MY HEART RESTS IN</span>
+            <h2>At the heart of Shanti Path is Tantra</h2>
+            <p class="section-subtitle">Not the pop culture myth, something far more real.</p>
+            <div class="tantra-heart-content">
+                <div class="tantra-heart-image">
+                    <!-- Image placeholder -->
+                </div>
+                <div class="tantra-heart-text">
+                    <p>At the heart of Shanti Path is Tantra, not the pop culture myth, but something far more sacred. Tantra is an ancient energetic practice that works with your life force energy—including your sexual energy—as a powerful tool for healing, awakening, and transformation.</p>
+                    <p>Through sacred touch and guided awareness, we're not here to suppress your energy, but to release the stored trauma and emotions trapped in your physical body. Safely, consciously, with sacred support through a slow, nurturing, and transformative journey that reconnects you to your true essence.</p>
+                    <p>When sexual energy is unblocked, many emotional and physical ailments naturally begin to heal. This isn't alternative or "woo." It's how the body was designed to function. Tantra is simply the path back home. It all starts with an initial consultation where we will talk through your unique needs and intentions for the work, setting meaningful goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decorative Divider -->
+    <section class="decorative-divider">
+        <div class="container">
+            <div class="decorative-icon large">☸</div>
+        </div>
+    </section>
+
+    <!-- Sacred Offerings -->
+    <section class="sacred-offerings-section">
+        <div class="container">
+            <span class="section-label">SACRED OFFERINGS</span>
+            <h2>Sacred Offerings for Your Healing Journey</h2>
+
+            <!-- Initial Consultation -->
+            <div class="offering-intro">
+                <h3>Initial Consultation</h3>
+                <p class="offering-duration">DURATION: 45-60 MINS | INCLUDED IN ALL PATHS</p>
+                <p>A free 45 minute complete tantra healing experience that starts with an online interview to build mutual trust, set clear intentions and determine the right path. Perfect for: Anyone curious about Tantra, those with specific questions, or those who like to get to know the practitioner before they work together.</p>
+            </div>
+
+            <!-- Offerings Grid -->
+            <div class="offerings-detail-grid">
+                <!-- Full Body Tantra Massage Journey -->
+                <div class="offering-detail-card">
+                    <h3>Full Body Tantra Massage Journey</h3>
+                    <p class="offering-duration">DURATION: 2.5-3 HOURS | €xxx-xxx based on duration</p>
+                    <p>A full body experience spanning mind, body and spirit that works to harmonize and revitalize you on all levels.</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Opening ceremony and intention setting (20 min)</li>
+                        <li>○ Laying relaxation and anti-stress massage (30 min)</li>
+                        <li>○ Deep tantra awakening and energy work</li>
+                        <li>○ Release of held energy and tension throughout the body</li>
+                        <li>○ Transmutation of emotion via massage and release</li>
+                        <li>○ Closing meditation and integration tips</li>
+                        <li>○ Rest while an energy session is in the world</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: Those who welcome an in-body, close touch Tantra session, Healing types who want a full transformative experience.</p>
+                </div>
+
+                <!-- Essential Tantra Massage -->
+                <div class="offering-detail-card">
+                    <h3>Essential Tantra Massage</h3>
+                    <p class="offering-duration">DURATION: 1.5 HOURS | €xxx to €xxx based on duration</p>
+                    <p>The full tantra journey with some time restrictions but essential elements remain intact.</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Opening ceremony and intention setting (20 min)</li>
+                        <li>○ Streamline full body anti-stress massage (20 min)</li>
+                        <li>○ Breathing, energy work, body, mind, touch</li>
+                        <li>○ Connection through vital energy and breath techniques</li>
+                        <li>○ Trauma release and emotional processing techniques</li>
+                        <li>○ Tantric breath practice (10 min)</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: Those looking for an accessible entry into Tantra.</p>
+                </div>
+
+                <!-- Chakra Clearing Session -->
+                <div class="offering-detail-card">
+                    <h3>Chakra Clearing Session</h3>
+                    <p class="offering-duration">DURATION: 1.5 HOURS | €xxx to €xxx + online € xxx</p>
+                    <p>Gentle touch-based or hands-free chakra clearing (with the option of hands-on work, if appropriate).</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Opening + brief consultation (10 mins)</li>
+                        <li>○ Grounding ritual and anti-stress massage</li>
+                        <li>○ Three-chakra body work and meditation</li>
+                        <li>○ Chakra clearing sequence</li>
+                        <li>○ Rebalancing clearing, grounding + emotional release</li>
+                        <li>○ Activation practices to open the heart and raise vibrations</li>
+                        <li>○ Integration meditation and tips for daily practice</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: Those who embrace inner journey away from touch or those preferring energetic healing (remote is also available).</p>
+                </div>
+
+                <!-- Reiki Healing Session -->
+                <div class="offering-detail-card">
+                    <h3>Reiki Healing Session</h3>
+                    <p class="offering-duration">DURATION: 1.5 HOURS | €xxx to €xxx + online € xxx</p>
+                    <p>The universal life force Reiki-like to allow your body to receive what it needs via chakra and meridian energy channels.</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Gentle conversation and intention setting (20 min)</li>
+                        <li>○ Relaxing style hands-on with meditation</li>
+                        <li>○ Release of physical, emotional, and energetic blockages</li>
+                        <li>○ Chakra scanning and realignment</li>
+                        <li>○ Transmute to neutral and attract positive healing and release</li>
+                        <li>○ Closing tips and meditation</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: The naturally inclined to inner healing, or otherwise for Tantra beginners to learn from a grounded alternative to Tantra bodywork.</p>
+                </div>
+
+                <!-- Domestic Healing -->
+                <div class="offering-detail-card">
+                    <h3>Domestic Healing</h3>
+                    <p class="offering-duration">DURATION: 1.5-2.5 HOURS | €xxx to €xxx + travel</p>
+                    <p>Whether tantra, reiki or Tantra healing, come to your space. (Special locations or home-body work) (not available everywhere).</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Opening + brief consultation (10 mins)</li>
+                        <li>○ One of the treatments below</li>
+                        <li>○ Any extra physical, meditation or energy work therapies</li>
+                        <li>○ Integration presence, grounding and integration close</li>
+                        <li>○ Discussion that is intuition-processing and release</li>
+                        <li>○ Closing meditation and integration tips</li>
+                        <li>○ Rest while an energy session is in the world</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: Those where seeking more than just body healing. Safe for high-trust clients who have established themselves as a fit for my work.</p>
+                </div>
+
+                <!-- Remote Healing Sessions -->
+                <div class="offering-detail-card">
+                    <h3>Remote Healing Sessions</h3>
+                    <p class="offering-duration">DURATION: 1-1.5 HOURS | €xxx to €xxx | via Zoom</p>
+                    <p>The full tantra journey. Tantra healing but through remote sessions tailored for distant and long-term clients, except the actual massage and physical parts.</p>
+                    <p class="offering-label">WHAT TO EXPECT:</p>
+                    <ul>
+                        <li>○ Opening conversation and intention setting (20 min)</li>
+                        <li>○ Breathwork, energy work, body, touch</li>
+                        <li>○ Distance chakra and meridian clearing</li>
+                        <li>○ Intuitive guidance and energetic clearing</li>
+                        <li>○ Trauma release from and emotional processing techniques</li>
+                        <li>○ Written notes and reflections (10 min)</li>
+                    </ul>
+                    <p class="offering-note">Perfect for: Global travelers, those living abroad or to practice Tantra alone with guided support over video call.</p>
+                </div>
+            </div>
+
+            <p class="packages-cta-text">If your are not sure what is the right path for you, lets talk!</p>
+            <a href="contact.html" class="btn btn-primary">Book an initial consultation</a>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <footer class="cta-section">
+        <div class="container">
+            <span class="section-label">YOUR JOURNEY</span>
+            <h2>Begin your journey to wholeness</h2>
+            <p>The journey of a thousand miles begins with a single step. Your path to peace, wholeness, and awakening is calling. I look forward to walking beside you.</p>
+            <a href="contact.html" class="btn btn-light">Request an interview</a>
+            <div class="cta-links">
+                <div class="cta-link-group">
+                    <a href="tantra.html">Tantra Path</a>
+                    <a href="#">Reiki Path</a>
+                    <a href="offerings.html">My Offerings</a>
+                </div>
+                <div class="cta-link-group">
+                    <a href="about.html">About Me</a>
+                    <a href="faq.html">F&Q</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <span class="footer-logo-icon">☸</span>
+            </div>
+            <div class="social-links">
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+<?php get_footer(); ?>
