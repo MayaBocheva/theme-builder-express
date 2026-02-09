@@ -1,0 +1,142 @@
+<?php get_header(); ?>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">☸</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHANTI PATH</span>
+                        <span class="logo-tagline">Sacred Energy Body Work</span>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="offerings.html">Offerings</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="faq.html">F&Q</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="contact.html" class="btn btn-primary">Request an interview</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+        <div class="container">
+            <span class="section-label">BEGIN YOUR JOURNEY</span>
+            <h1>My Mission</h1>
+            <p class="mission-text">
+                By guiding individuals through energy work, I aim to empower them to awaken their true selves and find the balance and peace that I once sought. Together, we can explore the depths of your being and facilitate profound healing. I know what it feels like to be lost in the chaos, to forget who you are beneath the exhaustion. And I also know the profound joy of finding your way back home to yourself. If you're reading this and something resonates deep within you, trust that feeling. Your body already knows the way—I'm simply here to walk beside you as you remember.
+            </p>
+            <div class="decorative-icon">☸</div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section class="qualifications-section">
+        <div class="container">
+            <span class="section-label">TRAINING & CERTIFICATIONS</span>
+            <h2>Professional Qualifications</h2>
+            <div class="qualifications-list">
+                <div class="qualification-item">
+                    <span class="qual-icon">○</span>
+                    <div class="qual-content">
+                        <h3>Tantra Massage Therapist</h3>
+                        <p>Somananda Tantra School, Estonia | 86 HOURS</p>
+                    </div>
+                </div>
+                <div class="qualification-item">
+                    <span class="qual-icon">○</span>
+                    <div class="qual-content">
+                        <h3>Reiki Level 1 Practitioner</h3>
+                        <p>Lady Eli School, Bulgaria | 12 HOURS</p>
+                    </div>
+                </div>
+                <div class="qualification-item">
+                    <span class="qual-icon">○</span>
+                    <div class="qual-content">
+                        <h3>Remote Energy Healing Practitioner</h3>
+                        <p>Somananda Tantra School, Online | 88 HOURS</p>
+                    </div>
+                </div>
+                <div class="qualification-item">
+                    <span class="qual-icon">○</span>
+                    <div class="qual-content">
+                        <h3>Meditation Teacher</h3>
+                        <p>Somananda Tantra School, India | 260 HOURS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="decorative-icon">☸</div>
+            <span class="section-label">GALERY</span>
+            <h2>My Path In Pictures</h2>
+            <p class="gallery-subtitle">graduation of the Tantra Massage Therapist Training</p>
+            <div class="gallery-grid">
+                <!-- Gallery images would go here -->
+                <div class="gallery-placeholder"></div>
+                <div class="gallery-placeholder"></div>
+                <div class="gallery-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Divider -->
+    <section class="logo-divider">
+        <div class="container">
+            <div class="logo-divider-content">
+                <div class="logo">
+                    <span class="logo-icon">☸</span>
+                    <div class="logo-text">
+                        <span class="logo-name">SHANTI PATH</span>
+                        <span class="logo-tagline">Sacred Energy Body Work</span>
+                    </div>
+                </div>
+                <span class="om-symbol">ॐ</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <footer class="cta-section">
+        <div class="container">
+            <span class="section-label">YOUR JOURNEY</span>
+            <h2>Begin your journey to wholeness</h2>
+            <p>The journey of a thousand miles begins with a single step. Your path to peace, wholeness, and awakening is calling. I look forward to walking beside you.</p>
+            <a href="contact.html" class="btn btn-light">Request an interview</a>
+            <div class="cta-links">
+                <div class="cta-link-group">
+                    <a href="tantra.html">Tantra Path</a>
+                    <a href="#">Reiki Path</a>
+                    <a href="offerings.html">My Offerings</a>
+                </div>
+                <div class="cta-link-group">
+                    <a href="about.html">About Me</a>
+                    <a href="faq.html">F&Q</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <span class="footer-logo-icon">☸</span>
+            </div>
+            <div class="social-links">
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+                <a href="#">Socials</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+<?php get_footer(); ?>
