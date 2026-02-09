@@ -1827,6 +1827,98 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--background);
 }
 
+/* Who Is It For Section */
+.who-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: var(--background);
+}
+
+.who-section h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: var(--text);
+}
+
+.who-list {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.who-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: var(--background-alt);
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.who-icon {
+    flex-shrink: 0;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.who-item p {
+    color: var(--text-light);
+    line-height: 1.7;
+}
+
+/* Benefits Grid */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.benefit-card {
+    background-color: var(--background-alt);
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.benefit-card .benefit-icon {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.benefit-card h3 {
+    font-size: 16px;
+    color: var(--text);
+}
+
+/* Experience Tantra Section */
+.experience-tantra-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: var(--background-pink);
+}
+
+.experience-tantra-section h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: var(--text);
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.experience-content p {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
 /* Responsive for new pages */
 @media (max-width: 1024px) {
     .packages-grid,
@@ -1841,6 +1933,10 @@ h1, h2, h3, h4, h5, h6 {
     .offerings-detail-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -1848,7 +1944,8 @@ h1, h2, h3, h4, h5, h6 {
     .contact-cards,
     .social-cards,
     .gallery-grid,
-    .offerings-detail-grid {
+    .offerings-detail-grid,
+    .benefits-grid {
         grid-template-columns: 1fr;
     }
     
