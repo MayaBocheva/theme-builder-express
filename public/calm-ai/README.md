@@ -32,7 +32,8 @@ calm-ai/
 | 6 | So funktioniert es: process graphic, 3 use cases, banner | `#kundenprozess` | Stone | Lass uns deinen Kundenprozess besprechen |
 | 7 | Ist Calm AI das Richtige für dich? | `#fuer-wen` | Cream | Deinen Prozess-Check vereinbaren |
 | + | Auch möglich: Team-Trainings, Software (in Entwicklung) | – | Stone | – |
-| + | FAQ | `#faq` | Cream | Deinen Prozess-Check vereinbaren |
+| + | FAQ | `#faq` | Cream | – |
+| + | Final CTA box (gradient) | – | Cream | Deinen Prozess-Check vereinbaren |
 
 Every CTA leads to `/prozess-check/`. The header button always reads "Prozess-Check".
 
