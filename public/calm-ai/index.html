@@ -57,6 +57,7 @@
     <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 19.5s-7.5-4.4-7.5-9.7A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5c0 5.3-7.5 9.7-7.5 9.7Z"/></symbol>
     <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"/></symbol>
     <symbol id="i-photo" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="m20.5 16-5-5-8 8"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6.3 6.3l2.5 2.5M15.2 15.2l2.5 2.5M6.3 17.7l2.5-2.5M15.2 8.8l2.5-2.5"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
   </svg>
@@ -92,41 +93,51 @@
         <div>
           <span class="label">Calm AI</span>
           <h1 id="hero-title">Von verstreuten Kontakten zu einem klaren Kundenprozess, der mit deinem Business wächst.</h1>
-          <p class="lead">Ich entwickle für Coaches, Berater:innen, KMU und Akademien zentrale, KI-gestützte Sales- und Marketingprozesse, damit Leads, Follow-ups und Kundendaten nicht verloren gehen und mehr Zeit für Kund:innen, kreative Arbeit und Wachstum bleibt.</p>
+          <p class="lead">Ich begleite Coaches, Berater:innen, KMU und Akademien als Business Analystin von der ersten Analyse bis zum fertigen, KI-gestützten Sales- und Marketingprozess. Meine Erfahrung aus über zehn Jahren als Product Owner und Business Analystin bringe ich direkt in dein Business ein, damit Leads, Follow-ups und Kundendaten nicht mehr verloren gehen.</p>
           <div class="cta">
-            <a class="btn" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
-            <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen.</p>
+            <div class="cta__buttons">
+              <a class="btn" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="btn btn--ghost" href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck starten</a>
+            </div>
+            <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen. Oder finde im Selbstcheck in wenigen Minuten heraus, ob dein Business bereit für KI ist.</p>
           </div>
         </div>
 
-        <!-- Visual: scattered contacts (sand) become one calm, ordered path (teal) -->
-        <div class="hero__visual reveal" aria-hidden="true">
-          <svg viewBox="0 0 480 480" preserveAspectRatio="xMidYMid slice">
-            <rect width="480" height="480" fill="#D9F0EF"/>
-            <g fill="none" stroke="#B6AC97" stroke-width="1.5" stroke-linecap="round" opacity=".9">
-              <path d="M70 92C140 110 170 190 214 240"/>
-              <path d="M54 210C120 214 170 232 214 240"/>
-              <path d="M96 330C150 300 180 262 214 240"/>
-              <path d="M150 52C170 120 190 190 214 240"/>
-              <path d="M44 400C110 360 170 290 214 240"/>
-            </g>
-            <g fill="#B6AC97">
-              <circle cx="70" cy="92" r="9"/><circle cx="54" cy="210" r="7"/><circle cx="96" cy="330" r="10"/>
-              <circle cx="150" cy="52" r="6"/><circle cx="44" cy="400" r="8"/><circle cx="118" cy="150" r="5"/>
-              <circle cx="36" cy="290" r="4"/><circle cx="168" cy="400" r="5"/>
-            </g>
-            <circle cx="214" cy="240" r="34" fill="#405D5C"/>
-            <circle cx="214" cy="240" r="48" fill="none" stroke="#405D5C" stroke-opacity=".25" stroke-width="1.5"/>
-            <path d="M206 240l6 6 11-12" fill="none" stroke="#D9F0EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M262 240H440" stroke="#405D5C" stroke-width="2.5" stroke-linecap="round"/>
-            <g fill="#F8F9F5" stroke="#405D5C" stroke-width="2.5">
-              <circle cx="300" cy="240" r="11"/><circle cx="350" cy="240" r="11"/><circle cx="400" cy="240" r="11"/>
-            </g>
-            <circle cx="440" cy="240" r="14" fill="#ACF3F1" stroke="#405D5C" stroke-width="2.5"/>
-            <g font-family="Sora, sans-serif" font-size="14" fill="#405D5C" text-anchor="middle">
-              <text x="300" y="278">Lead</text><text x="350" y="214">Gespräch</text><text x="400" y="278">Kunde</text>
-            </g>
-          </svg>
+        <!-- Visual: a customer process board, worked out together with a business analyst -->
+        <div class="pboard reveal" aria-hidden="true">
+          <div class="pboard__card">
+            <div class="pboard__head">
+              <span class="pboard__title">Dein Kundenprozess</span>
+              <span class="pboard__tag"><svg class="icon"><use href="#i-check"/></svg>gemeinsam erarbeitet</span>
+            </div>
+            <div class="pboard__cols">
+              <div class="pboard__col">
+                <p class="pboard__stage">Anfrage <span>3</span></p>
+                <div class="pcard"><span class="pcard__av" style="--c:#B6AC97">JS</span><span><b>Coach</b><small>Instagram</small></span></div>
+                <div class="pcard"><span class="pcard__av" style="--c:#8FA9A7">LM</span><span><b>Akademie</b><small>Empfehlung</small></span></div>
+                <div class="pcard pcard--ghost"><span><b>Beraterin</b><small>LinkedIn</small></span></div>
+              </div>
+              <div class="pboard__col">
+                <p class="pboard__stage">Gespräch <span>2</span></p>
+                <div class="pcard pcard--focus"><span class="pcard__av" style="--c:#405D5C">AK</span><span><b>KMU</b><small>E-Mail</small></span>
+                  <em class="pcard__next"><svg class="icon"><use href="#i-bell"/></svg>Follow-up morgen</em></div>
+                <div class="pcard"><span class="pcard__av" style="--c:#B6AC97">TR</span><span><b>Coach</b><small>LinkedIn</small></span></div>
+              </div>
+              <div class="pboard__col pboard__col--hide-sm">
+                <p class="pboard__stage">Angebot <span>1</span></p>
+                <div class="pcard"><span class="pcard__av" style="--c:#8FA9A7">NB</span><span><b>Akademie</b><small>Kampagne</small></span></div>
+              </div>
+              <div class="pboard__col">
+                <p class="pboard__stage">Kund:in <span>2</span></p>
+                <div class="pcard pcard--done"><svg class="icon"><use href="#i-check"/></svg><span><b>Onboarding</b><small>gestartet</small></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="pnote">
+            <span class="pnote__who">Business-Analyse</span>
+            <p>Nach dem Erstgespräch fehlt ein fester Follow-up-Schritt. Lösung: automatische Erinnerung + Vorlage.</p>
+          </div>
+          <div class="pchip"><svg class="icon"><use href="#i-spark"/></svg>KI fasst Gesprächsnotizen zusammen</div>
         </div>
       </div>
     </section>
@@ -151,11 +162,14 @@
       <div class="container split">
         <div class="about__text reveal">
           <span class="label">Über mich</span>
-          <h2 id="about-title">Deine Strategiepartnerin für klare, skalierbare Prozesse</h2>
-          <p class="lead">Über zehn Jahre Erfahrung in Produktmanagement und Softwareentwicklung treffen auf ein klares Verständnis für Business-Prozesse und praxistaugliche KI-Lösungen.</p>
-          <p>Ich bin Gründerin von Calm AI und bringe über zehn Jahre Erfahrung aus Produktmanagement und Softwareentwicklung mit. In dieser Zeit habe ich komplexe digitale Systeme und Business-Prozesse von der Idee über die Anforderungsdefinition bis zu Testing, Rollout und Nutzung im Arbeitsalltag begleitet.</p>
-          <p>Heute unterstütze ich Coaches, Berater:innen, Akademien und KMU dabei, verstreute Kontakte, Daten und Abläufe in einen klaren Sales- und Marketingprozess zu überführen.</p>
-          <p>Mein Mehrwert liegt in der Übersetzung: Ich verstehe, was dein Business braucht, und entwickle daraus Systeme und KI-gestützte Abläufe, die technisch sinnvoll, verständlich und im Alltag nutzbar sind.</p>
+          <h2 id="about-title">Deine Business Analystin für klare, skalierbare Prozesse</h2>
+          <p class="lead">Über zehn Jahre als Product Owner und Business Analystin in Produktmanagement und Softwareentwicklung. Diese Erfahrung bringe ich in deinen Kundenprozess ein.</p>
+          <ul class="tags" aria-label="Schwerpunkte">
+            <li>Business-Analyse</li><li>Product Ownership</li><li>Prozessdesign</li><li>KI im Alltag</li>
+          </ul>
+          <p>Ich bin Gründerin von Calm AI. Als Product Owner und Business Analystin habe ich komplexe digitale Systeme und Business-Prozesse begleitet: von der ersten Idee über Anforderungen, Testing und Rollout bis zur Nutzung im Arbeitsalltag.</p>
+          <p>Genau so arbeite ich heute mit Coaches, Berater:innen, Akademien und KMU: Ich höre zu, stelle die richtigen Fragen und mache sichtbar, wie deine Kund:innen heute durch dein Business laufen und wo Kontakte, Daten oder Zeit verloren gehen.</p>
+          <p>Mein Mehrwert liegt in der Übersetzung: Ich verstehe, was dein Business braucht, und entwickle mit dir Systeme und KI-gestützte Abläufe, die technisch sinnvoll, verständlich und im Alltag nutzbar sind. Dabei bist du nicht allein. Ich begleite dich durch jeden Schritt.</p>
           <p class="about__claim">Ziel ist nicht mehr Technik. Ziel ist mehr Klarheit, verlässliche nächste Schritte und ein Prozess, der mit deinem Business wachsen kann.</p>
           <div class="cta">
             <a class="btn" href="prozess-check/">Lass uns über deine Prozesse sprechen <svg class="icon"><use href="#i-arrow"/></svg></a>
@@ -190,7 +204,7 @@
           </ul>
         </div>
 
-        <p class="statement reveal">Die Lösung ist nicht einfach ein weiteres Tool. Die Lösung ist ein klarer Prozess, in dem Daten, Verantwortlichkeiten und nächste Schritte sinnvoll zusammenlaufen.</p>
+        <p class="statement reveal">Die Lösung ist nicht einfach ein weiteres Tool. Die Lösung ist ein klarer Prozess, in dem Daten, Verantwortlichkeiten und nächste Schritte sinnvoll zusammenlaufen, und jemand, der dich auf dem Weg dorthin begleitet.</p>
         <div class="cta cta--center">
           <a class="btn" href="prozess-check/">Deinen Prozess-Check starten <svg class="icon"><use href="#i-arrow"/></svg></a>
           <p class="cta__note">Kurz und unverbindlich. Wir schauen gemeinsam, welche Abläufe Zeit kosten und wo Kontakte oder Chancen untergehen.</p>
@@ -204,18 +218,18 @@
         <div class="section__head reveal">
           <span class="label">So arbeiten wir zusammen</span>
           <h2 id="how-title">Von der Analyse bis zur sicheren Anwendung im Alltag</h2>
-          <p class="lead">Calm AI entwickelt keine Standardlösung von der Stange. Wir schauen zuerst auf dein Business, deine bestehenden Abläufe und deine Ziele. Daraus entsteht ein System, das zu dir passt und mit deinem Business wachsen kann.</p>
+          <p class="lead">Calm AI entwickelt keine Standardlösung von der Stange. Ich begleite dich durch den ganzen Weg, so wie ich es als Product Owner und Business Analystin in vielen Projekten getan habe: erst verstehen, dann gemeinsam gestalten, dann sauber umsetzen.</p>
         </div>
         <ol class="steps reveal" style="list-style:none;padding:0;margin:0">
           <li class="step">
             <span class="step__num">1</span>
             <h3>Analyse</h3>
-            <p>Wir prüfen deine bestehenden Sales- und Marketingprozesse: Woher kommen Leads? Wo liegen Daten? Wo gehen Informationen, Follow-ups oder Zeit verloren?</p>
+            <p>Ich nehme gemeinsam mit dir deine bestehenden Sales- und Marketingprozesse auf: Woher kommen Leads? Wo liegen Daten? Wo gehen Informationen, Follow-ups oder Zeit verloren?</p>
           </li>
           <li class="step">
             <span class="step__num">2</span>
             <h3>Strategie &amp; Prozessdesign</h3>
-            <p>Wir entwickeln deinen klaren Kundenprozess, vom ersten Kontakt über Qualifizierung, Verkauf und Onboarding bis zu Kampagnen und weiterer Kundenkommunikation.</p>
+            <p>Wir entwickeln gemeinsam deinen klaren Kundenprozess, vom ersten Kontakt über Qualifizierung, Verkauf und Onboarding bis zu Kampagnen und weiterer Kundenkommunikation. Du entscheidest, ich strukturiere.</p>
           </li>
           <li class="step">
             <span class="step__num">3</span>
@@ -326,7 +340,7 @@
         </div>
 
         <div class="banner reveal">
-          <p>Calm AI entwickelt keinen starren Standardprozess. Wir bauen eine Struktur, die zu deinem Angebot, deinen Kund:innen und deiner Arbeitsweise passt.</p>
+          <p>Calm AI entwickelt keinen starren Standardprozess. Ich erarbeite mit dir eine Struktur, die zu deinem Angebot, deinen Kund:innen und deiner Arbeitsweise passt.</p>
           <div class="cta cta--center">
             <a class="btn btn--accent" href="prozess-check/">Lass uns deinen Kundenprozess besprechen <svg class="icon"><use href="#i-arrow"/></svg></a>
           </div>
@@ -366,8 +380,11 @@
         </div>
         <p class="statement reveal">Im Prozess-Check schauen wir gemeinsam darauf, wo gerade Zeit, Informationen oder Chancen verloren gehen und ob Calm AI der richtige nächste Schritt für dein Business ist.</p>
         <div class="cta cta--center">
-          <a class="btn" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
-          <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen.</p>
+          <div class="cta__buttons">
+            <a class="btn" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost" href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck starten</a>
+          </div>
+          <p class="cta__note">Noch unsicher? Der Selbstcheck „Ist dein Business bereit für KI?“ gibt dir in wenigen Minuten eine erste Einschätzung.</p>
         </div>
       </div>
     </section>
@@ -401,8 +418,16 @@
         </div>
         <div class="faq">
           <details>
+            <summary>Was ist deine Rolle im Projekt?</summary>
+            <div><p>Ich bin deine Business Analystin und Prozessbegleiterin. Ich bringe meine Erfahrung als Product Owner und Business Analystin ein, nehme deine Abläufe auf, strukturiere Anforderungen und Entscheidungen und setze den Prozess gemeinsam mit dir um. Du behältst die Entscheidungen, ich sorge für Klarheit und die nächsten Schritte.</p></div>
+          </details>
+          <details>
             <summary>Wie läuft der Prozess-Check ab?</summary>
             <div><p>Du wählst einen passenden Termin im Kalender. Im Gespräch schauen wir gemeinsam auf deine aktuellen Abläufe, wo Zeit, Kontakte oder Chancen verloren gehen und ob Calm AI der richtige nächste Schritt für dich ist. Der Prozess-Check ist unverbindlich.</p></div>
+          </details>
+          <details>
+            <summary>Was ist der Selbstcheck?</summary>
+            <div><p>Der Selbstcheck „Ist dein Business bereit für KI?“ ist ein kurzer Fragebogen. Du beantwortest ihn in wenigen Minuten und bekommst eine erste Einschätzung, wo dein Business steht. <a href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Zum Selbstcheck</a></p></div>
           </details>
           <details>
             <summary>Brauche ich technisches Wissen?</summary>
@@ -434,9 +459,12 @@
         <div class="banner banner--final reveal">
           <span class="label">Dein nächster Schritt</span>
           <h2 id="final-title">Bereit für einen Kundenprozess, der mit deinem Business wächst?</h2>
-          <p>Im Prozess-Check schauen wir gemeinsam auf deine aktuellen Abläufe und klären, wo Zeit, Kontakte oder Chancen verloren gehen. Danach weißt du, welcher nächste Schritt für dein Business sinnvoll ist.</p>
+          <p>Im Prozess-Check schaue ich mit dir als Business Analystin auf deine aktuellen Abläufe. Wir klären, wo Zeit, Kontakte oder Chancen verloren gehen, und du weißt danach, welcher nächste Schritt für dein Business sinnvoll ist.</p>
           <div class="cta cta--center">
-            <a class="btn btn--accent" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <div class="cta__buttons">
+              <a class="btn btn--accent" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="btn btn--ghost-light" href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck starten</a>
+            </div>
             <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen. Deine Frage war oben nicht dabei? Wir klären sie direkt im Gespräch.</p>
           </div>
         </div>
@@ -457,6 +485,7 @@
         </div>
         <nav class="footer__links" aria-label="Footer">
           <a href="prozess-check/">Prozess-Check vereinbaren</a>
+          <a href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck</a>
           <a href="https://linkedin.com/company/calm-ai" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://www.instagram.com/maya.calm.ai.consulting/" target="_blank" rel="noopener">Instagram</a>
           <a href="impressum/">Impressum</a>

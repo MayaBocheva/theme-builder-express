@@ -35,7 +35,11 @@ calm-ai/
 | + | FAQ | `#faq` | Cream | – |
 | + | Final CTA box (gradient) | – | Cream | Deinen Prozess-Check vereinbaren |
 
-Every CTA leads to `/prozess-check/`. The header button always reads "Prozess-Check".
+Every primary CTA leads to `/prozess-check/`. The header button always reads "Prozess-Check".
+Secondary CTA "Selbstcheck starten" (hero, fit section, final box, FAQ, footer) opens the Tally form "Ist dein Business bereit für KI?" at https://tally.so/r/EkygEl.
+
+**Positioning:** the copy presents Maya as a Business Analyst and Product Owner who guides clients through the process (hero, Über mich, Ablauf, FAQ "Was ist deine Rolle im Projekt?").
+**Hero visual:** an HTML process board (Anfrage, Gespräch, Angebot, Kund:in) with an analysis note, no colored background box.
 
 **Changes compared to the doc:**
 - **Das Ergebnis:** the doc listed the problems from section 3 again here. The boxes have been rewritten as outcomes ("Follow-ups passieren rechtzeitig" and so on). Please review them.
