@@ -90,6 +90,62 @@
     });
   }
 
+
+  // Before / after graphic
+  var compare = document.querySelector("[data-compare]");
+  if (compare) {
+    var stage = compare.querySelector(".compare__stage");
+    var caption = compare.querySelector(".compare__caption");
+    var buttons = compare.querySelectorAll("[data-view]");
+    var touched = false;
+    var show = function (view) {
+      stage.setAttribute("data-state", view);
+      buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-view") === view)); });
+      caption.textContent = caption.getAttribute("data-caption-" + view);
+    };
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () { touched = true; show(b.getAttribute("data-view")); });
+    });
+    // Play the change once when the graphic comes into view
+    if ("IntersectionObserver" in window && !reduce) {
+      var once = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) {
+          once.disconnect();
+          setTimeout(function () { if (!touched) show("after"); }, 1400);
+        }
+      }, { threshold: 0.55 });
+      once.observe(stage);
+    }
+  }
+
+  // Use cases highlight their part of the process flow
+  var flow = document.querySelector("[data-flow]");
+  var caseButtons = document.querySelectorAll("[data-case]");
+  if (flow && caseButtons.length) {
+    var nodes = flow.querySelectorAll(".flow-node");
+    var select = function (n) {
+      caseButtons.forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-case") === n)); });
+      flow.classList.add("has-focus");
+      nodes.forEach(function (el) {
+        el.classList.toggle("is-lit", (" " + el.getAttribute("data-cases") + " ").indexOf(" " + n + " ") > -1);
+      });
+    };
+    caseButtons.forEach(function (b) {
+      b.addEventListener("click", function () { select(b.getAttribute("data-case")); });
+    });
+    select("1");
+  }
+
+  // Analytics events (only sent if the visitor accepted analytics, see consent.js)
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("a");
+    if (!a || !window.calmTrack) return;
+    var href = a.getAttribute("href") || "";
+    if (href.indexOf("prozess-check") > -1) window.calmTrack("cta_prozess_check", { link_text: a.textContent.trim() });
+    else if (href.indexOf("tally.so") > -1) window.calmTrack("selbstcheck_click", { link_text: a.textContent.trim() });
+    else if (href.indexOf("calendly.com") > -1) window.calmTrack("calendly_direct_click");
+  });
+
   // Calendly: two-click loading (nothing is sent to Calendly before consent)
   var cal = document.querySelector("[data-calendly]");
   if (cal) {
@@ -99,6 +155,7 @@
       iframe.src = cal.getAttribute("data-calendly");
       iframe.title = "Termin für den Prozess-Check auswählen";
       iframe.loading = "lazy";
+      if (window.calmTrack) window.calmTrack("calendly_open");
       cal.innerHTML = "";
       cal.appendChild(iframe);
     });

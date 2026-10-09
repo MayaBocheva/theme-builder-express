@@ -67,24 +67,64 @@ Secondary CTA "Selbstcheck starten" (hero, fit section, final box, FAQ, footer) 
 - **Reusing on other landing pages (e.g. Mind Your Team):** copy the `assets/` folder. All blocks (`.label`, `.btn`, `.box`, `.steps`, `.feature`, `.case`, `.banner`, `.qualify`, `.faq`) and the icon set at the top of `index.html` can be reused.
 - **Logo:** `assets/img/calmai-logo.png` is only 188×45 px. An SVG or a version at least 600 px wide would look sharper on high-resolution screens.
 
-## Putting it on calmaiconsulting.com (IONOS / Strato / All-Inkl)
+## Putting it on calmaiconsulting.com (All-Inkl)
 
-1. **Fill in the legal texts** in `impressum/index.html` and `datenschutz/index.html` (replace the yellow TODO box). The privacy policy should cover the hosting provider, Calendly (USA), and YouTube if you add the video.
-2. **Find your FTP/SFTP login:**
-   - **IONOS:** Hosting → SFTP & SSH → create a user.
-   - **Strato:** Paket → Sicherheit/SFTP.
-   - **All-Inkl:** KAS → FTP → create an FTP user.
-3. **Connect** with FileZilla (free) using the server, username and password.
-4. **Find the target folder:** check which folder the domain points to. On IONOS this is under Domains → domain → "Ziel/Verwendung". On All-Inkl it's under Domain → "Zielverzeichnis".
-5. **Upload the contents** of `calm-ai/` (not the folder itself) into that target folder, so that `index.html` sits directly inside it. If an old `index.html` or `index.php` is there, back it up first.
-6. **Turn on SSL / HTTPS:** IONOS and Strato include it. On All-Inkl, use KAS → Domain → SSL → Let's Encrypt. Enable "HTTPS erzwingen" if available.
-7. **Test** at https://calmaiconsulting.com, https://calmaiconsulting.com/prozess-check/, and on a phone.
+The site is plain HTML/CSS/JS with no database and no PHP, so it runs on every All-Inkl package.
 
-To make changes later, edit the file and upload it again. Only the changed file needs to be re-uploaded.
+1. **Before you go live:**
+   - Fill in `impressum/index.html` and `datenschutz/index.html`. Replace every yellow `[placeholder]` and delete the yellow draft box.
+   - Optional: add your GA4 Measurement ID in `assets/js/consent.js` (see below).
+2. **Domain and folder in KAS:** log in at https://kas.all-inkl.com, open **Domain**, and check which folder (Zielverzeichnis) `calmaiconsulting.com` points to, e.g. `/calmaiconsulting.com/`. Change it there if needed.
+3. **FTP access:** in KAS go to **FTP** and create an FTP user for that folder (or use the main account). Note the server (e.g. `wXXXXXX.kasserver.com`), username and password.
+4. **Upload:**
+   - Open FileZilla, connect using **SFTP** or **FTP over TLS**, and open the target folder.
+   - Upload **the contents** of `calm-ai/`: `index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`, `.htaccess`, and the folders `assets/`, `prozess-check/`, `impressum/` and `datenschutz/`. You don't need to upload `README.md`.
+   - `.htaccess` starts with a dot and is hidden by default. In FileZilla, enable **Server > Versteckte Dateien anzeigen** first.
+5. **SSL:** in KAS go to **Domain > bearbeiten > SSL-Schutz**, choose **Let's Encrypt** and save. The `.htaccess` then forwards every visitor to https automatically.
+6. **Test:**
+   - Pages: https://calmaiconsulting.com, `/prozess-check/`, `/impressum/`, `/datenschutz/`, and a non-existent page, which should show the 404 page.
+   - Check the site on a phone as well.
+7. **Google Search Console:**
+   - Add the domain at https://search.google.com/search-console. Verify it with a DNS TXT record, which you add in KAS under **Tools > DNS-Einstellungen**.
+   - Submit `https://calmaiconsulting.com/sitemap.xml`.
+   - Optional: do the same in Bing Webmaster Tools. ChatGPT search also uses Bing results.
+
+To update the site later, edit the file and upload only that file again.
+
+## Google Analytics 4
+
+1. **Create a property:**
+   - Go to https://analytics.google.com and click **Verwaltung > Erstellen > Property**. Use time zone Germany and currency EUR.
+   - Add a **Web data stream** for `https://calmaiconsulting.com` and copy the **Mess-ID** (`G-XXXXXXXXXX`).
+2. **Settings in GA4:**
+   - **Datenaufbewahrung:** 2 or 14 months, as stated in the Datenschutzerklärung.
+   - Leave Google Signals **switched off**.
+   - Accept the data processing terms (Auftragsverarbeitung) under **Verwaltung > Kontodetails**.
+3. **Connect the site:** in `assets/js/consent.js`, set `var GA_MEASUREMENT_ID = "G-XXXXXXXXXX";` and upload that file.
+4. **Consent banner:** the page then shows a banner with "Ablehnen" and "Akzeptieren". Analytics loads **only after "Akzeptieren"**, and visitors can change their choice under "Cookie-Einstellungen" in the footer. While the ID is empty, there is no banner and no tracking.
+5. **Events sent automatically:**
+   - `cta_prozess_check` (click on a Prozess-Check button)
+   - `selbstcheck_click`
+   - `calendly_open` (calendar loaded on the booking page)
+   - `calendly_direct_click`
+6. **Key events:** mark `calendly_open` and `selbstcheck_click` as key events (Schlüsselereignisse) in GA4.
+
+## GEO: optimized for Google and AI search (ChatGPT, Perplexity, Gemini, Claude)
+
+- **Clear, quotable facts:** the "Calm AI kurz erklärt" block under the hero states what, for whom, how, and the first step.
+- **Structured data (JSON-LD):** ProfessionalService with services, the founder as Person (Business Analystin / Product Owner), WebSite, and a FAQPage generated from the visible FAQ.
+  - TODO: add the founder's full name in the `Person` block once the Impressum is final.
+- **Crawlers:** `robots.txt` explicitly allows search engines and AI crawlers (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Google-Extended, Applebot-Extended).
+- **`llms.txt`:** a short, plain-text summary of the business for AI assistants.
+- **`sitemap.xml`:** list of pages; keep `lastmod` updated after bigger changes.
+- **Off-site signals still to do:** a Google Business Profile, if you want to be found locally; identical name, description and link on LinkedIn and Instagram; and mentions or guest posts that link to the site. AI assistants rely heavily on these.
 
 ## Open items
 
-- [ ] Impressum and Datenschutz texts (Maya)
+- [ ] Impressum and Datenschutz: fill in the drafts (yellow placeholders) and have them checked
+- [ ] GA4 Measurement ID in assets/js/consent.js
+- [ ] Founder's full name in the JSON-LD "Person" block
+- [ ] City / region, if local search matters (add to JSON-LD and the "Kurz erklärt" block)
 - [ ] Review the "Das Ergebnis" wording
 - [ ] Optional: YouTube video (script points are in the doc, "Video" tab)
 - [ ] Optional: AI image for section 6 (prompt is in the doc)
