@@ -759,3 +759,27 @@ h1 { font-size: clamp(2.125rem, 4.4vw, 3.375rem); }
   .cmp-hub__foot { display: none; }
   .compare__caption { font-size: 0.875rem; margin-top: 12px; }
 }
+
+/* v3.2: richer process flow */
+.process-grid .flow__sources { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.flow__sources .chip { padding: 9px 10px; font-size: 0.875rem; }
+.flow__hub-tags span { font-size: 0.8125rem; }
+.flow__helper {
+  display: flex; align-items: flex-start; gap: 10px; text-align: left; margin: 16px 0 0; padding: 12px 14px;
+  background: rgba(172, 243, 241, .18); border: 1px solid rgba(172, 243, 241, .55); border-radius: 12px; font-size: 0.875rem; line-height: 1.45;
+}
+.flow__helper .icon { width: 18px; height: 18px; color: var(--accent); flex: none; margin-top: 1px; }
+.flow__steps { list-style: none; margin: 0; padding: 0; width: 100%; max-width: 560px; display: grid; gap: 10px; position: relative; counter-reset: fs; }
+.flow__steps::before { content: ""; position: absolute; left: 33px; top: 20px; bottom: 20px; width: 2px; background: linear-gradient(var(--sand), var(--primary)); opacity: .5; }
+.flow__steps .flow__step { max-width: none; position: relative; align-items: flex-start; padding: 14px 18px; }
+.flow__steps .flow__step .icon { margin-top: 2px; background: var(--bg-white); }
+.flow__step strong { display: block; }
+.flow__step small { display: block; color: var(--ink-muted); font-size: 0.8125rem; line-height: 1.45; margin-top: 2px; }
+@media (max-width: 640px) {
+  .flow__sources, .process-grid .flow__sources { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .banner--final { padding: 32px 16px; }
+  .banner--final .btn { padding: 14px 16px; font-size: 0.9375rem; }
+  .btn .icon { width: 16px; height: 16px; }
+}

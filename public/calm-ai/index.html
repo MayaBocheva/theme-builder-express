@@ -247,6 +247,9 @@
     <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
     <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4.5 5.5h15v10h-9l-4 3.5v-3.5h-2z"/></symbol>
     <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 4 21 19.5H3L12 4Z"/><path d="M12 10v4M12 17v.01"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="1.5"/><path d="M3 7.5h18V10H3zM12 7.5V20M12 7.5c-1-2.8-4.5-3.6-4.5-1.3 0 1.3 2 1.3 4.5 1.3ZM12 7.5c1-2.8 4.5-3.6 4.5-1.3 0 1.3-2 1.3-4.5 1.3Z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></symbol>
+    <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M4 13.5 6 5.5h12l2 8v5H4z"/><path d="M4 13.5h4.5l1 2h5l1-2H20"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
   </svg>
@@ -358,7 +361,7 @@
         </div>
         <p class="statement reveal">Die Lösung ist kein weiteres Tool. Die Lösung ist ein klarer Prozess, und jemand, der ihn mit dir aufbaut.</p>
         <div class="cta cta--center">
-          <a class="btn" href="prozess-check/">Deinen Prozess-Check starten <svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a class="btn" href="prozess-check/">Prozess-Check starten <svg class="icon"><use href="#i-arrow"/></svg></a>
         </div>
       </div>
     </section>
@@ -383,7 +386,7 @@
             <li><span class="approach__num">4</span><div><h3>Sicher im Alltag nutzen</h3><p>Wir testen mit echten Fällen, und ich trainiere dich oder dein Team, bis alles selbstständig läuft.</p></div></li>
           </ol>
           <div class="cta">
-            <a class="btn" href="prozess-check/">Deinen nächsten Prozessschritt klären <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn" href="prozess-check/">Nächsten Schritt klären <svg class="icon"><use href="#i-arrow"/></svg></a>
           </div>
         </div>
       </div>
@@ -469,32 +472,37 @@
         <div class="section__head reveal">
           <span class="label">So funktioniert es</span>
           <h2 id="process-title">So kann dein Kundenprozess aussehen</h2>
-          <p class="lead">Aus verschiedenen Kontaktpunkten wird ein klarer, zentraler Prozess. Alle wichtigen Informationen, Aufgaben und nächsten Schritte greifen sinnvoll ineinander.</p>
+          <p class="lead">Alle Kontaktpunkte laufen in einem zentralen System zusammen. Von dort führt ein klarer Weg vom Erstkontakt bis zur Kundenbindung.</p>
         </div>
 
         <!-- Process graphic built in HTML (responsive, readable on mobile).
              To use the AI-generated image instead, replace this .flow block with:
              <figure class="flow-image"><img src="assets/img/kundenprozess.jpg" alt="..."></figure> -->
         <div class="process-grid">
-        <div class="flow reveal" data-flow role="img" aria-label="Kontaktquellen LinkedIn, Instagram, E-Mail und Empfehlungen fließen in ein zentrales Kunden- und Prozesssystem. Von dort folgen Qualifizierung und Follow-ups, Verkauf und Onboarding sowie Kampagnen und Kundenbindung.">
-          <p class="flow__group-label">Kontaktquellen</p>
+        <div class="flow reveal" data-flow role="img" aria-label="Kontaktquellen wie LinkedIn, Instagram, E-Mail, Empfehlungen, Freebies und Website fließen in ein zentrales Kunden- und Prozesssystem mit Kontaktdaten, Interessen, Gesprächen, Notizen, Aufgaben, nächsten Schritten und einem KI-E-Mail-Helfer. Von dort folgen Erstkontakt, Qualifizierung und Follow-ups mit Setting-Call, Terminplanung, Verkauf und Onboarding mit Closing-Call sowie Kampagnen und Kundenbindung.">
+          <p class="flow__group-label">Alle deine Kontaktquellen</p>
           <div class="flow__sources">
             <span class="chip flow-node" data-cases="1"><svg class="icon"><use href="#i-linkedin"/></svg>LinkedIn</span>
             <span class="chip flow-node" data-cases="1"><svg class="icon"><use href="#i-instagram"/></svg>Instagram</span>
-            <span class="chip flow-node" data-cases="2 3"><svg class="icon"><use href="#i-mail"/></svg>E-Mail</span>
-            <span class="chip flow-node" data-cases="2"><svg class="icon"><use href="#i-handshake"/></svg>Empfehlungen</span>
+            <span class="chip flow-node" data-cases="1 2 3"><svg class="icon"><use href="#i-mail"/></svg>E-Mail</span>
+            <span class="chip flow-node" data-cases="1"><svg class="icon"><use href="#i-handshake"/></svg>Empfehlungen</span>
+            <span class="chip flow-node" data-cases="1 3"><svg class="icon"><use href="#i-gift"/></svg>Freebies</span>
+            <span class="chip flow-node" data-cases="1"><svg class="icon"><use href="#i-globe"/></svg>Website</span>
           </div>
           <span class="flow__arrow"></span>
           <div class="flow__hub flow-node" data-cases="1 2 3">
             <h3>Zentrales Kunden- &amp; Prozesssystem</h3>
-            <div class="flow__hub-tags"><span>Kontaktdaten</span><span>Interessen</span><span>Gesprächsnotizen</span><span>Aufgaben</span></div>
+            <div class="flow__hub-tags"><span>Kontaktdaten</span><span>Interessen</span><span>Gespräche</span><span>Notizen</span><span>Aufgaben</span><span>Nächste Schritte</span></div>
+            <p class="flow__helper"><svg class="icon"><use href="#i-spark"/></svg><span><b>KI-E-Mail-Helfer</b> schreibt Antworten und Follow-ups vor. Du prüfst und sendest.</span></p>
           </div>
           <span class="flow__arrow"></span>
-          <div class="flow__step flow-node" data-cases="1"><svg class="icon"><use href="#i-filter"/></svg><strong>Qualifizierung &amp; Follow-ups</strong></div>
-          <span class="flow__arrow"></span>
-          <div class="flow__step flow-node" data-cases="2"><svg class="icon"><use href="#i-rocket"/></svg><strong>Verkauf &amp; Onboarding</strong></div>
-          <span class="flow__arrow"></span>
-          <div class="flow__step flow-node" data-cases="3"><svg class="icon"><use href="#i-heart"/></svg><strong>Kampagnen &amp; Kundenbindung</strong></div>
+          <ol class="flow__steps">
+            <li class="flow__step flow-node" data-cases="1"><svg class="icon"><use href="#i-inbox"/></svg><div><strong>Erstkontakt</strong><small>Anfrage, Quelle und Interesse werden automatisch erfasst</small></div></li>
+            <li class="flow__step flow-node" data-cases="1"><svg class="icon"><use href="#i-filter"/></svg><div><strong>Qualifizierung &amp; Follow-ups</strong><small>Setting-Call planen, Follow-ups zur richtigen Zeit</small></div></li>
+            <li class="flow__step flow-node" data-cases="1 2"><svg class="icon"><use href="#i-calendar"/></svg><div><strong>Terminplanung</strong><small>Online-Buchung, Erinnerungen und Kalender in einem Ablauf</small></div></li>
+            <li class="flow__step flow-node" data-cases="2"><svg class="icon"><use href="#i-rocket"/></svg><div><strong>Verkauf &amp; Onboarding</strong><small>Closing-Call, Angebot und ein klarer Start</small></div></li>
+            <li class="flow__step flow-node" data-cases="3"><svg class="icon"><use href="#i-heart"/></svg><div><strong>Kampagnen &amp; Kundenbindung</strong><small>Kund:innen landen in passenden Marketing-Prozessen</small></div></li>
+          </ol>
         </div>
 
         <div class="process-grid__side">
@@ -503,18 +511,18 @@
         <div class="cases cases--stack" data-cases-list>
           <button type="button" class="case reveal" data-case="1" aria-pressed="true">
             <span class="case__num">01</span>
-            <span class="case__title">Vom Social-Media-Kontakt zum Erstgespräch</span>
-            <span class="case__text">Anfragen aus LinkedIn oder Instagram werden zentral erfasst. Du siehst, woran jemand interessiert ist, und erhältst eine klare Erinnerung für den nächsten Schritt.</span>
+            <span class="case__title">Vom Erstkontakt zum Erstgespräch</span>
+            <span class="case__text">Ob über Social Media, ein Freebie, die Website oder eine Empfehlung: Jede Anfrage landet zentral. Du siehst das Interesse, planst den Setting-Call und wirst an den nächsten Schritt erinnert.</span>
           </button>
           <button type="button" class="case reveal" data-case="2" aria-pressed="false">
             <span class="case__num">02</span>
             <span class="case__title">Vom Erstgespräch zum Onboarding</span>
-            <span class="case__text">Gesprächsnotizen, Entscheidungen und Aufgaben bleiben an einem Ort. Wird aus einem Lead ein Kunde, startet ein klarer Onboarding-Prozess.</span>
+            <span class="case__text">Notizen aus Setting- und Closing-Call, Angebot und Aufgaben bleiben an einem Ort. Termine plant das System mit, und aus einem Ja wird ein klarer Onboarding-Start.</span>
           </button>
           <button type="button" class="case reveal" data-case="3" aria-pressed="false">
             <span class="case__num">03</span>
-            <span class="case__title">Von Kundendaten zu relevanten Kampagnen</span>
-            <span class="case__text">Du segmentierst Kontakte nach Interessen, Angebotsstatus oder Kundengruppe. So erhält jede Person die passende Kommunikation, ohne dass du Listen manuell zusammensuchen musst.</span>
+            <span class="case__title">Von Kundendaten zu passenden Kampagnen</span>
+            <span class="case__text">Kontakte und Kund:innen landen nach Interesse oder Angebot in passenden Marketing-Prozessen. Der E-Mail-Helfer bereitet Texte vor, ohne dass du Listen von Hand pflegst.</span>
           </button>
         </div>
         </div>
@@ -555,10 +563,10 @@
         <p class="statement reveal">Im Prozess-Check schauen wir gemeinsam darauf, wo gerade Zeit, Informationen oder Chancen verloren gehen und ob Calm AI der richtige nächste Schritt für dein Business ist.</p>
         <div class="cta cta--center">
           <div class="cta__buttons">
-            <a class="btn" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn" href="prozess-check/">Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
             <a class="btn btn--ghost" href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck starten</a>
           </div>
-          <p class="cta__note">Noch unsicher? Der Selbstcheck „Ist dein Business bereit für KI?“ gibt dir in wenigen Minuten eine erste Einschätzung.</p>
+          <p class="cta__note">Noch unsicher? Der Selbstcheck gibt dir in wenigen Minuten eine erste Einschätzung.</p>
         </div>
       </div>
     </section>
@@ -633,14 +641,14 @@
         <div class="banner banner--final reveal">
           <img class="final-avatar" src="assets/img/maya-portrait.jpg" alt="" width="96" height="96" loading="lazy">
           <span class="label">Dein nächster Schritt</span>
-          <h2 id="final-title">Bereit für einen Kundenprozess, der mit deinem Business wächst?</h2>
-          <p>Im Prozess-Check schauen wir gemeinsam auf deine Abläufe. Du weißt danach, wo Zeit und Kontakte verloren gehen und welcher Schritt als Nächstes sinnvoll ist.</p>
+          <h2 id="final-title">Bereit für einen klaren Kundenprozess?</h2>
+          <p>Wir schauen gemeinsam auf deine Abläufe und klären den nächsten sinnvollen Schritt.</p>
           <div class="cta cta--center">
             <div class="cta__buttons">
-              <a class="btn btn--accent" href="prozess-check/">Deinen Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="btn btn--accent" href="prozess-check/">Prozess-Check vereinbaren <svg class="icon"><use href="#i-arrow"/></svg></a>
               <a class="btn btn--ghost-light" href="https://tally.so/r/EkygEl" target="_blank" rel="noopener">Selbstcheck starten</a>
             </div>
-            <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen. Deine Frage war oben nicht dabei? Wir klären sie direkt im Gespräch.</p>
+            <p class="cta__note">Kurz, unverbindlich und auf dein Business bezogen.</p>
           </div>
         </div>
       </div>
