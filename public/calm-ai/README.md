@@ -19,35 +19,23 @@ calm-ai/
     └── img/                ← calmai-logo.png, founder.jpg, favicon.svg
 ```
 
-## Page structure (source: Google Doc "Calm AI Landing Page", tab "Landing Page design")
+## Page structure (version 3, shortened)
 
-| # | Section | Anchor | Background | CTA |
-|---|---|---|---|---|
-| 1 | Hero, label "Calm AI" | `#top` | Cream `#F8F9F5` | Deinen Prozess-Check vereinbaren |
-| – | Video (optional, 45 to 75 s) | – | Cream | – (hidden until a YouTube ID is set) |
-| 2 | Über mich | `#ueber-mich` | Stone `#F5F5F1` | Lass uns über deine Prozesse sprechen |
-| 3 | Die Herausforderung | `#herausforderung` | Mint `#D9F0EF` | Deinen Prozess-Check starten |
-| 4 | So arbeiten wir zusammen (4 steps) | `#ablauf` | Cream | Deinen nächsten Prozessschritt klären |
-| 5 | Das Ergebnis (6 boxes, 2 colors) | `#ergebnis` | White | – |
-| 6 | So funktioniert es: process graphic, 3 use cases, banner | `#kundenprozess` | Stone | Lass uns deinen Kundenprozess besprechen |
-| 7 | Ist Calm AI das Richtige für dich? | `#fuer-wen` | Cream | Deinen Prozess-Check vereinbaren |
-| + | Auch möglich: Team-Trainings, Software (in Entwicklung) | – | Stone | – |
-| + | FAQ | `#faq` | Cream | – |
-| + | Final CTA box (gradient) | – | Cream | Deinen Prozess-Check vereinbaren |
+| # | Section | Anchor | Notes |
+|---|---|---|---|
+| 1 | Hero: "Erst den Prozess verstehen. Dann KI einsetzen." | `#top` | Photo `maya-portrait.jpg` and a small process card |
+| – | Calm AI kurz erklärt | – | Four quotable facts, for people and AI search |
+| – | Video (optional) | – | Hidden until a YouTube ID is set |
+| 2 | Die Herausforderung | `#herausforderung` | Five short pain points |
+| 3 | Mein Ansatz: Prozess vor KI | `#ansatz` | Photo `maya-process.jpg`, four steps: verstehen, gestalten, dann KI, sicher nutzen |
+| 4 | Über mich | `#ueber-mich` | Photo `founder.jpg`, LinkedIn and Instagram buttons |
+| 5 | Das Ergebnis | `#ergebnis` | Before/after toggle, then four short "how your day feels" statements (illustrative, not testimonials) |
+| 6 | So funktioniert es | `#kundenprozess` | Process flow and three clickable use cases |
+| 7 | Ist Calm AI das Richtige für dich? | `#fuer-wen` | Fit and no-fit cards |
+| + | Auch möglich, FAQ, final CTA box with photo | `#faq` | |
 
-Every primary CTA leads to `/prozess-check/`. The header button always reads "Prozess-Check".
-Secondary CTA "Selbstcheck starten" (hero, fit section, final box, FAQ, footer) opens the Tally form "Ist dein Business bereit für KI?" at https://tally.so/r/EkygEl.
-
-**Positioning:** the copy presents Maya as a Business Analyst and Product Owner who guides clients through the process (hero, Über mich, Ablauf, FAQ "Was ist deine Rolle im Projekt?").
-**Hero visual:** an HTML process board (Anfrage, Gespräch, Angebot, Kund:in) with an analysis note, no colored background box.
-
-**Changes compared to the doc:**
-- **Das Ergebnis:** the doc listed the problems from section 3 again here. The boxes have been rewritten as outcomes ("Follow-ups passieren rechtzeitig" and so on). Please review them.
-- **Social proof:** the "20+ Kund:innen" line was left out because there are no customers yet. Only the italic line under the button stays.
-- **Section 6:** the process graphic is built in HTML (sources, then the Calm AI system, then 3 steps), so it stays sharp and readable on mobile. A comment in `index.html` explains how to swap in an AI-generated image later.
-- **Additions:** a FAQ (adapted from the older PDF version) and a small "Auch möglich" row for trainings and the software.
-- **Voice:** "Ich" for the founder and "wir" for the joint work with the client.
-- **No em dashes** anywhere in the copy.
+The brand name is **Calm AI Consulting**. The logo is a vector file (`assets/img/calmai-logo.svg`, plus a light version for the dark footer); `calmai-logo.png` is generated from it for Google and social previews.
+Every primary CTA leads to `/prozess-check/`. The secondary CTA "Selbstcheck starten" opens https://tally.so/r/EkygEl.
 
 ## Trends applied (research, October 2026)
 

@@ -1,6 +1,10 @@
-# Calm AI Consultancy
+# Calm AI Consulting
 
 > Calm AI begleitet Coaches, Berater:innen, Akademien und kleine und mittlere Unternehmen (KMU) zu einem klaren, KI-gestützten Sales- und Marketingprozess. Die Gründerin Maya arbeitet als Business Analystin und Product Owner mit über zehn Jahren Erfahrung in Produktmanagement und Softwareentwicklung. Sprache: Deutsch. Website: https://calmaiconsulting.com/
+
+## Ansatz
+
+Erst den Prozess verstehen, dann KI einsetzen. Calm AI analysiert zuerst, wie Anfragen, Gespräche und Aufgaben im Unternehmen laufen, gestaltet daraus einen klaren Kundenprozess und setzt erst danach KI und Automatisierung dort ein, wo sie Zeit spart.
 
 ## Leistungen
 
