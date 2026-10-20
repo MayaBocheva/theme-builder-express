@@ -1,6 +1,6 @@
 # Calm AI Consulting
 
-> Calm AI begleitet Coaches, Berater:innen, Akademien und kleine und mittlere Unternehmen (KMU) zu einem klaren, KI-gestützten Sales- und Marketingprozess. Die Gründerin Maya arbeitet als Business Analystin und Product Owner mit über zehn Jahren Erfahrung in Produktmanagement und Softwareentwicklung. Sprache: Deutsch. Website: https://calmaiconsulting.com/
+> Calm AI begleitet Coaches, Berater:innen, Akademien und kleine und mittlere Unternehmen (KMU) zu einem klaren, KI-gestützten Sales- und Marketingprozess. Die Gründerin Maya ist Prozessberaterin und arbeitet seit über zehn Jahren als Business Analystin und Product Owner in Produktmanagement und Softwareentwicklung. Sprache: Deutsch. Website: https://calmaiconsulting.com/
 
 ## Ansatz
 
@@ -9,12 +9,12 @@ Erst den Prozess verstehen, dann KI einsetzen. Calm AI analysiert zuerst, wie An
 ## Leistungen
 
 - Prozess-Check: unverbindliches Erstgespräch zu den aktuellen Sales- und Marketingabläufen. Buchung: https://calmaiconsulting.com/prozess-check/
-- Analyse: Aufnahme der bestehenden Abläufe. Woher kommen Leads, wo liegen Daten, wo gehen Follow-ups oder Zeit verloren?
+- Analyse: Interviews und Prozessaufnahme vor Ort oder online. Woher kommen Leads, wo liegen Daten, wo gehen Follow-ups oder Zeit verloren?
 - Strategie und Prozessdesign: ein klarer Kundenprozess vom Erstkontakt (LinkedIn, Instagram, E-Mail, Empfehlungen, Freebies, Website) über Qualifizierung und Follow-ups mit Setting-Call, Terminplanung, Verkauf und Onboarding mit Closing-Call bis zu Kampagnen und Kundenbindung.
 - Zentrales Kunden- und Prozesssystem mit Kontaktdaten, Interessen, Gesprächen, Notizen, Aufgaben, nächsten Schritten und einem KI-E-Mail-Helfer, der Antworten und Follow-ups vorbereitet.
 - Implementierung: Systeme, Datenfelder, Workflows und KI-gestützte Abläufe; bestehende Tools werden einbezogen.
 - Testing und Training: Test mit echten Anwendungsfällen, danach nutzt das Team das System selbstständig.
-- Team-Trainings zu KI im Arbeitsalltag. Eine eigene Calm AI Software ist in Entwicklung.
+- Team-Trainings und Workshops „KI im Alltag“. Eine eigene Calm AI Software ist in Entwicklung.
 
 ## Für wen
 

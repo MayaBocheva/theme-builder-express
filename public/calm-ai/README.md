@@ -23,16 +23,17 @@ calm-ai/
 
 | # | Section | Anchor | Notes |
 |---|---|---|---|
-| 1 | Hero: "Erst den Prozess verstehen. Dann KI einsetzen." | `#top` | Photo `maya-portrait.jpg` and a small process card |
+| 1 | Hero: "Erst den Prozess verstehen. Dann KI einsetzen." | `#top` | Clean photo `maya-portrait.jpg`, "Ich bin Maya, Prozessberaterin" |
 | – | Calm AI kurz erklärt | – | Four quotable facts, for people and AI search |
 | – | Video (optional) | – | Hidden until a YouTube ID is set |
-| 2 | Die Herausforderung | `#herausforderung` | Five short pain points |
-| 3 | Mein Ansatz: Prozess vor KI | `#ansatz` | Photo `maya-process.jpg`, four steps: verstehen, gestalten, dann KI, sicher nutzen |
-| 4 | Über mich | `#ueber-mich` | Photo `founder.jpg`, LinkedIn and Instagram buttons |
-| 5 | Das Ergebnis | `#ergebnis` | Before/after toggle, then four short "how your day feels" statements (illustrative, not testimonials) |
-| 6 | So funktioniert es | `#kundenprozess` | Process flow and three clickable use cases |
+| 2 | Die Herausforderung | `#herausforderung` | Whole sales process: next steps, follow-ups, onboarding, campaigns, data |
+| 3 | Mein Ansatz: Prozess vor KI | `#ansatz` | Photo `maya-process.jpg`; on-site interviews and analysis, strategy, implementation, testing and training |
+| 4 | Über mich | `#ueber-mich` | Photo `founder.jpg`, one CTA |
+| 5 | Das Ergebnis | `#ergebnis` | Graphic "many sources into one system" plus four "Das bedeutet für dich" statements |
+| 6 | So funktioniert es | `#kundenprozess` | Five simple steps, AI e-mail helper note, three short examples |
 | 7 | Ist Calm AI das Richtige für dich? | `#fuer-wen` | Fit and no-fit cards |
-| + | Auch möglich, FAQ, final CTA box with photo | `#faq` | |
+| + | Weitere Angebote: Team-Trainings, KI im Alltag, Calm AI Software | – | |
+| + | FAQ "Häufig gefragt", final CTA box with photo | `#faq` | |
 
 The brand name is **Calm AI Consulting**. The logo is a vector file (`assets/img/calmai-logo.svg`, plus a light version for the dark footer); `calmai-logo.png` is generated from it for Google and social previews.
 Every primary CTA leads to `/prozess-check/`. The secondary CTA "Selbstcheck starten" opens https://tally.so/r/EkygEl.
